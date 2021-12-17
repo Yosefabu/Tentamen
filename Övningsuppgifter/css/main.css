@@ -1,0 +1,54 @@
+body {
+    background:#f2f2f2;
+    margin: 0;
+    font-family:sans-serif
+}
+
+.top {
+    text-align: center;
+}
+
+.personligt {
+
+    position: static;
+    top: 25px;
+    background:red;
+    color:blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:22px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.circum         {
+    position:absolute;
+    top: 700px;
+    left: 130px;
+    bottom: 500x;
+    right: 1000px;
+    background:green ;
+    font-size: 24px;
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:400px;
+    height: 175px;
+    margin: 0 auto;
+}
+
+.cvbild     {
+    position:fixed;
+    top:900px;
+    left: 500px;
+    bottom: 30px;
+    right: 0px;
+    width: 30%;
+    height: 30%;
+    object-fit: scale-down;
+}
+
+.personligbild {
+    position: relative;
+    width: 50%;
+    height:750px;
+    object-fit: scale-down;
+}
